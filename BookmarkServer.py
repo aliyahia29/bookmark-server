@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-import os
 #
 # A *bookmark server* or URI shortener that maintains a mapping (dictionary)
 # between short names and long URIs, checking that each new URI added to the
@@ -41,7 +40,7 @@ import os
 # starter code.
 #
 # After writing each step, restart the server and run test.py to test it.
-
+import os
 import http.server
 import requests
 from urllib.parse import unquote, parse_qs
