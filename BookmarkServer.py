@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+import os
 #
 # A *bookmark server* or URI shortener that maintains a mapping (dictionary)
 # between short names and long URIs, checking that each new URI added to the
