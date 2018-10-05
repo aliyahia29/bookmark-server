@@ -149,5 +149,5 @@ class Shortener(http.server.BaseHTTPRequestHandler):
 
 if __name__ == '__main__':
     server_address = ('', 8000)
-    httpd = http.server.HTTPServer(server_address, Shortener)
+    httpd = ThreadHTTPServer(server_address, Shortener)
 httpd.serve_forever()
